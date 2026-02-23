@@ -1,0 +1,104 @@
+{
+  "kind": "build_request",
+  "title": "Create colour tap game",
+  "projectName": "Colour Tap",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a game interface where colored tiles or buttons appear on screen for the player to tap",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Game displays interactive colored elements that respond to clicks/taps",
+        "Multiple colors are used in the game interface"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Implement game logic that tracks player taps and validates them against the correct color sequence or pattern",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Game responds to user taps/clicks on colored elements",
+        "Game provides feedback on whether taps are correct or incorrect"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Display a score counter that updates as the player successfully taps colors",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Score is visible on screen",
+        "Score increments when player makes correct taps"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Store high scores persistently in the backend",
+      "target": "backend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "High scores are saved and persist across sessions",
+        "Backend provides methods to store and retrieve high scores"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Display a leaderboard showing top scores",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Leaderboard is visible to players",
+        "Leaderboard shows multiple top scores in descending order"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Apply a vibrant, playful visual design with bold color choices, rounded shapes, and smooth animations that make the game feel energetic and engaging",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Game uses a cohesive color palette with bright, saturated colors",
+        "UI elements have consistent styling with rounded corners and playful typography",
+        "Interactions include smooth transitions and animations"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Multiplayer functionality",
+    "Sound effects or music",
+    "Social media integration",
+    "Mobile app version"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

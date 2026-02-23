@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A colour tap game",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-game-interface-where-colored-tiles-or-buttons-appear-on-screen-for-the-player-to-tap",
+      "title": "Create a game interface where colored tiles or buttons appear on screen for the player to tap",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-game-logic-that-tracks-player-taps-and-validates-them-against-the-correct-color-sequence-or-pattern",
+      "title": "Implement game logic that tracks player taps and validates them against the correct color sequence or pattern",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-a-score-counter-that-updates-as-the-player-successfully-taps-colors",
+      "title": "Display a score counter that updates as the player successfully taps colors",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-a-leaderboard-showing-top-scores",
+      "title": "Display a leaderboard showing top scores",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-vibrant-playful-visual-design-with-bold-color-choices-rounded-shapes-and-smooth-animations-that-make-the-game-feel-energetic-and-engaging",
+      "title": "Apply a vibrant, playful visual design with bold color choices, rounded shapes, and smooth animations that make the game feel energetic and engaging",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create colour tap game",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Store high scores persistently in the backend",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Colour Tap",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

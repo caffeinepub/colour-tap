@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor implementing a leaderboard with submitScore and getLeaderboard functions, storing name-score pairs in a list and sorting by score descending.",
+  "feature_evidence.json": "Feature evidence report documenting five implemented features including game interface, tap validation logic, score display, leaderboard, and vibrant visual design with associated files and test IDs.",
+  "frontend-file-summaries.txt": "JSON object containing one-line summaries of all frontend source files including components, hooks, and configuration files.",
+  "frontend/index.css": "Tailwind CSS base styles defining CSS custom properties for light and dark themes using OKLCH color space with comprehensive design tokens.",
+  "frontend/index.html": "HTML entry point with root div and module script reference to main.tsx, titled 'Colour Tap'.",
+  "frontend/src/App.tsx": "Root React component with gradient background, header with title, GameBoard in main section, footer with caffeine.ai attribution, and Toaster for notifications.",
+  "frontend/src/components/ColorTile.tsx": "Button component for game tiles with color prop, active/disabled states, hover/scale animations, and dynamic styling.",
+  "frontend/src/components/GameBoard.tsx": "Main game container managing game state via useGameLogic hook, rendering 2x2 color tile grid, score display, controls, and toggleable leaderboard with GameOverModal.",
+  "frontend/src/components/GameOverModal.tsx": "Dialog modal displaying final score with trophy icon and form to submit player name to leaderboard using useSubmitScore mutation.",
+  "frontend/src/components/Leaderboard.tsx": "Card component displaying top 10 scores with medal icons for top 3, loading state, and error handling using useLeaderboard hook.",
+  "frontend/src/components/ScoreDisplay.tsx": "Display component showing current score with trophy icon in a styled gradient container with large numeric display.",
+  "frontend/src/hooks/useActor.ts": "React Query hook managing backend actor creation with Internet Identity authentication, returning actor instance and invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useGameLogic.ts": "Custom React hook managing Simon-style memory game state including sequence generation, playback with tile flashing, player input validation, scoring, and game over detection.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context and hook for Internet Identity authentication on ICP, providing login/logout functionality, identity management, and authentication status tracking with configurable AuthClient options.",
+  "frontend/src/hooks/useLeaderboard.ts": "Re-exports leaderboard query and score submission hooks from useQueries for simplified access to leaderboard functionality.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching leaderboard data and submitting scores to the backend actor, with automatic cache invalidation on score submission.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom design tokens for light/dark themes using OKLCH color space, defining colors, typography, and CSS variables for a modern UI system.",
+  "frontend/src/main.tsx": "Application entry point that sets up React root with QueryClient for data fetching and InternetIdentityProvider for authentication context.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors using OKLCH, typography settings, animations, and plugins for a design system with light/dark mode support.",
+  "project_state.json": "Project metadata tracking implemented features (game interface, logic, scoring, leaderboard, visual design) and pending feature requests (persistent backend storage) for a color tap memory game."
+}

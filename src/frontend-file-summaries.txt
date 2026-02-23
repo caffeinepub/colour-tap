@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component with header, footer, and game board layout using a vibrant gradient background.",
+  "frontend/src/components/GameBoard.tsx": "Core game container managing game state, controls, color tile grid, and leaderboard visibility.",
+  "frontend/src/components/ColorTile.tsx": "Interactive colored button component with hover, active, and disabled states for the game tiles.",
+  "frontend/src/components/ScoreDisplay.tsx": "Score counter component displaying current score with trophy icon and playful styling.",
+  "frontend/src/components/Leaderboard.tsx": "Leaderboard display component showing top 10 scores with medal icons and loading states.",
+  "frontend/src/components/GameOverModal.tsx": "Modal dialog for game over state allowing players to submit their name and score.",
+  "frontend/src/hooks/useGameLogic.ts": "Custom hook managing Simon-style game logic including sequence generation, validation, and state management.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for fetching leaderboard data and submitting scores to the backend.",
+  "frontend/src/hooks/useLeaderboard.ts": "Wrapper hook exporting leaderboard-related queries for cleaner imports.",
+  "frontend/src/index.css": "Global styles with vibrant OKLCH color system for light and dark modes, custom fonts (Inter and Poppins).",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens, font families, and extended design system."
+}
